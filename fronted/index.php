@@ -1,5 +1,5 @@
 <?php
-$apiUrl=gentenv('API_URL');
+$apiUrl=getenv('API_URL');
 $url = $apiUrl."/pet/list";
 $data = file_get_contents($url);
 //Json to Array
